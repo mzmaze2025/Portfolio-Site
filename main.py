@@ -13,6 +13,9 @@ with col2:
                 This page is the first big project on this journey."""
     st.info(content)
 
-
+content2="""
+Below you can find some of the apps I have built in Python. Feel free to contact me
+!"""
+st.subheader(content2)
 
 
