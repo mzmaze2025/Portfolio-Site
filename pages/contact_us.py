@@ -18,4 +18,4 @@ From: {user_email}
             send_email(message)
             st.info("Your email was sent successfully.")
         except:
-            print("I am sorry, the email cannot be sent, you can contact me on mmpythonprojects@gmail.com")
+            st.info("I am sorry, the email cannot be sent, you can contact me on mmpythonprojects@gmail.com")
