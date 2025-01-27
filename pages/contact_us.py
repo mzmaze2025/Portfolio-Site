@@ -14,5 +14,8 @@ From: {user_email}
 """
     button = st.form_submit_button()
     if button:
-        send_email(message)
-        st.info("Your email was sent successfully.")
+        try:
+            send_email(message)
+            st.info("Your email was sent successfully.")
+        except:
+            print("I am sorry, the email cannot be sent, you can contact me on mmpythonprojects@gmail.com")
