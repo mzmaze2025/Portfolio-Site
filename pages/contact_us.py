@@ -17,5 +17,4 @@ From: {user_email}
         try:
             send_email(message)
             st.info("Your email was sent successfully.")
-        except:
-            st.info("I am sorry, the email cannot be sent, you can contact me on mmpythonprojects@gmail.com")
+        except:        st.info("I am sorry, the email cannot be sent, you can contact me on mmpythonprojects@gmail.com")
