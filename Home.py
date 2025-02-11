@@ -11,7 +11,7 @@ with col1:
 with col2:
     st.title("Márta Makhándi")
     content = """Reaching my 50th year, I decided to learn something from scratch. That is Python programming. 
-                This page is the first big project on this journey."""
+                This page is the first big project on this journey.The page is being imrpoved constantly, newer and newer apps are added"""
     st.info(content)
 
 content2="""
@@ -21,12 +21,13 @@ st.subheader(content2)
 col3, empty_col, col4=st.columns([1.5, 0.5, 1.5])
 
 df = pandas.read_csv("data.csv", sep=";")
+print(df)
 
 with col3:
     for index, row in df[:7].iterrows():
         st.header(row["title"])
         st.write(row["description"])
-        st.image("images/"+row["image"])
+        st.image("images/" + row["image"])
         st.write(f"[Source Code:]({row['url']})")
         st.write(f"[Open Web App or Download App:]({row['app']})")
 

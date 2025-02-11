@@ -1,6 +1,6 @@
-title;description;url;app;image
-Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://github.com/mzmaze2025/To-Do-Web-App;1.png
-Book Lending App;A desktop PyQT6 GUI app so that you can keep track of your books: it keeps record of your borrowed and returned books.;https://github.com/mzmaze2025/Book-Lending-App;https://github.com/mzmaze2025/Book-Lending-App/blob/main/dist/booklendingapp.zip;book_lending_app.jpg
+title;description;url;image;app
+Todo App;A distraction-free web app to help you focus on creating and completing tasks.;https://github.com/mzmaze2025/To-Do-Web-App;1.png;https://npmkrbezzaaymmeyappxmzw.streamlit.app/
+Book Lending App;A desktop PyQT6 GUI app so that you can keep track of your books: it keeps record of your borrowed and returned books.;https://github.com/mzmaze2025/Book-Lending-App;21.png;https://drive.google.com/file/d/1zXyBJzJlzxPq-RjVA6z6tRqnCfFC1yjV/view?usp=sharing
 Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/mzmaze2025/Portfolio-Site.git;2.png
 PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/mzmaze2025/PDF-Template-Creator.git;3.png
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/mzmaze2025/Invoice-Generator-from-XLS-to-PDF.git;4.png
